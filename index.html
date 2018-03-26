@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <script type="text/javascript" src="javascript.js"></script>
+
+    <title>Crystal Game</title>
+</head>
+<header>
+
+    <h1>Crystal Collector</h1>
+</header>
+<br>
+<section id="CristalImages">
+    <div class="rules">
+
+        <p>You will be given a random number at the start of the game. You will need to obtain enough points to equal that number There are 4 crystals on the bottom each with a different amount of points. The value is hidden until you click on a crystal.
+            You win the game once you match the right amount of points needed by clicking the crystals. After winning the game will reset with new goal and different amount of points in each crystal.</p>
+
+
+    </div>
+    <br>
+
+    <div class="crystals">
+        <img src="assets/images/cristal-1.jpg" width="60px" class="image" id="cristal-1">
+        <img src="assets/images/cristal-2.jpg" width="60px" class="image" id="cristal-2">
+        <img src="assets/images/cristal-3.jpg" width="60px" class="image" id="cristal-3">
+        <img src="assets/images/cristal-4.jpg" width="60px" class="image" id="cristal-4">
+    </div>
+</section>
+<br>
+
+<div class="matchthenumber">
+    <h2>Number to get:
+        <span id="randomNumber"></span>
+    </h2>
+</div>
+<br>
+
+<div class="winsandlosses">
+    <h3>Wins:
+        <span id="wins"></span>
+    </h3>
+    <h3>Losses:
+        <span id="losses"></span>
+    </h3>
+</div>
+<br>
+
+<div class="userscore">
+    <h2>Total Score:
+        <span id="finalScore"></span>
+    </h2>
+</div>
+
+
+
+<body>
+
+</body>
+
+</html>
