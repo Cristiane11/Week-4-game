@@ -1,0 +1,58 @@
+header {
+    background-color: #9F00C9;
+    font-family: Ariel, Verdana, Serif;
+    Color: #FFFAF4;
+    text-align: center;
+    height: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+}
+
+body {
+    text-align: center;
+    background-color: #cccccc;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#CristalImages {
+    background-color: #FFFAF4;
+    text-align: left;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
+    height: 300px;
+}
+
+.matchthenumber {
+    background-color: #9F00C9;
+    font-family: Ariel, Verdana, Serif;
+    Color: #FFFAF4;
+    text-align: center;
+    padding-top: 10px;
+    height: 80px;
+    width: 400px;
+}
+
+.winsandlosses {
+    background-color: #9F00C9;
+    font-family: Ariel, Verdana, Serif;
+    Color: #FFFAF4;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+    height: 80px;
+    width: 400px;
+}
+
+.userscore {
+    background-color: #9F00C9;
+    font-family: Ariel, Verdana, Serif;
+    Color: #FFFAF4;
+    text-align: center;
+    padding-top: 10px;
+    height: 80px;
+    width: 400px;
+}
